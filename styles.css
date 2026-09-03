@@ -1,3 +1,11 @@
 h1 {
     font-family: 'Perandory', sans-serif;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    gap: 20px;
+}
