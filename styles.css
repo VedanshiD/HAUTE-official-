@@ -1,11 +1,24 @@
+body {
+    margin: 0;
+    background-color: black;
+}
 h1 {
     font-family: 'Perandory', sans-serif;
+    font-size: 80px;
+    color: #fff1c5;
 }
 nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    height: 100px;
+    background-color: #4a1525;
+    padding-top:20px;
+    border-bottom: 2.25px solid #fff1c5;
 }
 ul {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    padding-right: 20px;
+    list-style: none;
 }
