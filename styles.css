@@ -43,12 +43,13 @@ ul {
     left:183.75px;
 }
 .shop {
-    background-color: #9e1b32;
+    background-color:#062885;
     height: 500px;
 }
 .soleil {
-    background-color: #062885;
-    height: 500px;
+    background-color:#9e1b32;
+    height: 5000px;
+    margin: 0px;
 }
 .explore {
     background-color: #1d8506;
@@ -57,4 +58,26 @@ ul {
 .profile {
     background-color: #8f05ff;
     height: 500px;
+}
+h2 {
+    margin: 0;
+    font-family: 'fraunces', sans-serif;
+    font-size: 50px;
+    color: #fff1c5;
+}
+.descriptive_pics{
+    margin: 35px;
+}
+.soleil1 p:last-child{
+    color: #fff1c5;
+    font-family: 'fraunces', sans-serif;
+    font-size: 20px;
+    
+}
+.soleil1 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
