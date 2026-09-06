@@ -43,5 +43,18 @@ ul {
     left:183.75px;
 }
 .shop {
-    background-color: rgb(35, 48, 186);
+    background-color: #9e1b32;
+    height: 500px;
+}
+.soleil {
+    background-color: #062885;
+    height: 500px;
+}
+.explore {
+    background-color: #1d8506;
+    height: 500px;
+}
+.profile {
+    background-color: #8f05ff;
+    height: 500px;
 }
