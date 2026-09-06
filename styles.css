@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    background-color: black;
 }
 h1 {
     font-family: 'Perandory', sans-serif;
@@ -33,7 +32,7 @@ ul {
 .soleil_container img:last-child {
     position: absolute;
     top:0px;
-    left:150px;
+    left:183.75px;
 }
 .venus_container {
     position: relative;
@@ -41,5 +40,8 @@ ul {
 .venus_container img:last-child {
     position: absolute;
     top:0px;
-    left:1320px;
+    left:183.75px;
+}
+.shop {
+    background-color: rgb(35, 48, 186);
 }
