@@ -48,8 +48,9 @@ ul {
 }
 .soleil {
     background-color:#9e1b32;
-    height: 5000px;
+    height: 3120px;
     margin: 0px;
+    width: 1470px;
 }
 .explore {
     background-color: #1d8506;
@@ -65,19 +66,34 @@ h2 {
     font-size: 50px;
     color: #fff1c5;
 }
-.descriptive_pics{
-    margin: 35px;
+.soleil1 img{
+    margin: 20px;
 }
-.soleil1 p:last-child{
+.soleil1 p{
     color: #fff1c5;
     font-family: 'fraunces', sans-serif;
-    font-size: 20px;
-    
+    font-size: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 .soleil1 {
     display: flex;
-    position: absolute;
+    position: relative;
     align-items: center;
-    margin-left: 40px;
-    margin-right: 40px;
+    text-align: center;
+}
+.soleilButtons {
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+}
+.soleilButtons :last-child{
+    margin: 30px;
+    margin-bottom: 50px;
+}
+.soleilButtons a {
+    display: block;
+    margin: 0px;
 }
