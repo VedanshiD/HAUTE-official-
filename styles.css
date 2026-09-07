@@ -16,6 +16,10 @@ nav {
     padding-top:20px;
     border-bottom: 2.25px solid #fff1c5;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 ul {
     display: flex;
     gap: 30px;
@@ -60,8 +64,8 @@ ul {
     background-color: #8f05ff;
     height: 500px;
 }
-h2 {
-    margin: 0;
+span {
+    margin-bottom: 200px;
     font-family: 'fraunces', sans-serif;
     font-size: 50px;
     color: #fff1c5;
@@ -72,9 +76,9 @@ h2 {
 .soleil1 p{
     color: #fff1c5;
     font-family: 'fraunces', sans-serif;
-    font-size: 25px;
-    margin-left: 40px;
-    margin-right: 40px;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 .soleil1 {
@@ -88,12 +92,26 @@ h2 {
     position: relative;
     align-items: center;
     flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .soleilButtons :last-child{
-    margin: 30px;
-    margin-bottom: 50px;
+  margin-top: 20px;
 }
-.soleilButtons a {
-    display: block;
-    margin: 0px;
+.ticker {
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+.ticker-track {
+    display: inline-block;
+    animation: scroll-left 15s linear infinite;
+}
+@keyframes scroll-left {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
 }
