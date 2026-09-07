@@ -115,3 +115,7 @@ span {
         transform: translateX(-50%);
     }
 }
+.venus {
+   background-color: #e17087;
+    height: 3120px; 
+}
