@@ -56,9 +56,25 @@ ul {
     margin: 0px;
     width: 1470px;
 }
-.explore {
-    background-color: #1d8506;
-    height: 500px;
+body {
+    margin: 0;
+    background-color: #fff1c5;
+}
+.explore h1{
+    margin-top: 70px;
+    margin-left: 136.5px;
+    color: #4a1525;
+    letter-spacing: 130px;
+    font-weight: 5;
+    font-size: 150px;
+}
+.explore h2 {
+    color: #4a1525;
+    font-family: 'fraunces', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 136.5px;
+    margin-right: 100px;
 }
 .profile {
     background-color: #8f05ff;
