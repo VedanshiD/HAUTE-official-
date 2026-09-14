@@ -76,6 +76,44 @@ body {
     margin-left: 136.5px;
     margin-right: 100px;
 }
+.bottles{
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+    flex-shrink: 0;
+}
+.bottles > :first-child{
+    margin-right: 20px;
+}
+.bottles > :last-child{
+    margin-left: 20px;
+}
+.bottlesText {
+    display: flex;
+    color: #4a1525;
+    font-family: 'fraunces', sans-serif;
+    font-size: 57px;
+    margin-bottom: 150px;
+}
+.bottlesText :first-child{
+    margin-right: 20px;
+    font-weight: 400;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.bottlesText >:nth-child(2) {
+    margin: 2px;
+    margin-top: 20px;
+    font-weight: 400;
+    margin-left: 200px;
+}
+.bottlesText :last-child {
+    margin-right: 20px;
+    font-weight: 400;
+    margin-left: 260px;
+    margin-top: 20px;
+}
+
 .profile {
     background-color: #8f05ff;
     height: 500px;
