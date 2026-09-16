@@ -48,6 +48,10 @@ ul {
 }
 .shop {
     background-color:#062885;
+    height: 3120px;
+}
+.colaroma {
+    background-color:#ec4cbc;
     height: 500px;
 }
 .soleil {
@@ -172,4 +176,10 @@ span {
 .venus {
    background-color: #e17087;
     height: 3120px; 
+}
+.colaroma {
+    background-color:#4a1726;
+    height: 3120px;
+    margin: 0px;
+    width: 1470px;
 }
