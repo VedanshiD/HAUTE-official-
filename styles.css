@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    width: 100%;
 }
 h1 {
     font-family: 'Perandory', sans-serif;
@@ -47,7 +48,6 @@ ul {
     left:183.75px;
 }
 .shop {
-    background-color:#062885;
     height: 3120px;
 }
 .colaroma {
@@ -63,6 +63,23 @@ ul {
 body {
     margin: 0;
     background-color: #fff1c5;
+}
+.shop h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 136.5px;
+    color: #4a1525;
+    letter-spacing: 130px;
+    font-weight: 5;
+    font-size: 150px;
+}
+.shop h2 {
+    color: #4a1525;
+    font-family: 'fraunces', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    margin-left: 136.5px;
+    margin-right: 100px;
 }
 .explore h1{
     margin-top: 70px;
@@ -182,4 +199,57 @@ span {
     height: 3120px;
     margin: 0px;
     width: 1470px;
+}
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(7px);
+    background-color: rgba(244, 240, 198, 0.2);
+}
+.popup-content {
+    transform: translate(40%, 55%);
+    border: 3px solid #4a1525;
+    position: absolute;
+    margin: 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff1c5;
+}
+.popupleft {
+    padding-left: 20px;
+}
+.popupinfo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.popupinfo p {
+    font-family: 'fraunces', sans-serif;
+    font-size: 30px;
+    color: #4a1525;
+}
+.popupinfo button {
+    font-family: 'fraunces', sans-serif;
+    font-size: 30px;
+    background-color: #fff1c5;
+    color: #4a1525;
+    border: 2px solid #4a1525;
+    padding: 10px 20px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color:#4a1525;
+    font-size:28px;
+    font-weight: bold;
 }
