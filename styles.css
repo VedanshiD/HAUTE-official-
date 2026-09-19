@@ -210,17 +210,18 @@ span {
     height: 100vh;
     backdrop-filter: blur(7px);
     background-color: rgba(244, 240, 198, 0.2);
+    align-items: center;
+    justify-content: center;
 }
 .popup-content {
-    transform: translate(40%, 55%);
     border: 3px solid #4a1525;
-    position: absolute;
     margin: 0px;
     text-align: center;
     display: flex;
     flex-direction: row;
     align-items: center;
     background-color: #fff1c5;
+    position: relative;
 }
 .popupleft {
     padding-left: 20px;

@@ -1,9 +1,13 @@
-const popup = document.getElementById("colaromapopup");
-const popupimg = document.getElementById("colaromabottle");
-const closebtn = document.getElementById("colaromaclose");
-popupimg.addEventListener("click", function() {
-    popup.style.display = "block";
+const popups = document.querySelectorAll(".popup");
+const popupimgs = document.querySelectorAll(".popupimg");
+const closebtn = document.querySelectorAll(".close");
+popupimgs.forEach((img,index) => {
+img.addEventListener("click", function() {
+    popups[index].style.display = "flex";
+    });
 });
-closebtn.addEventListener("click", function() {
-    popup.style.display = "none";
+closebtn.forEach((btn,index) => {
+btn.addEventListener("click", function() {
+    popups[index].style.display = "none";
+    });
 });
