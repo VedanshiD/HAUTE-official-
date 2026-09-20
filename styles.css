@@ -250,6 +250,7 @@ span {
     font-family: 'fraunces', sans-serif;
     font-size: 30px;
     color: #4a1525;
+    margin-right: 20px;
 }
 .popupinfo button {
     font-family: 'fraunces', sans-serif;
@@ -327,13 +328,16 @@ hr {
     margin-right: 30px;
 }
 .quizbox{
-    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     background-color: #4a1525;
     width: 1000px;
     border-radius: 7px;
     display: flex;
     align-items: center;
-    gap: 2px;
+    gap: 50px;
 }
 .quizbox h3 {
     color: #fff1c5;
