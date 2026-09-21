@@ -9,13 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <nav>
         <div class="navLeft">
             <ul>
                 <li>
-                        <img src="photos/menu.png" width="70">
+                        <img id="menuBtn" src="photos/menu.png" width="70">
                 </li>
                 <li>
                     <a href="explore.html">
@@ -75,4 +76,43 @@
         </div>
     </main>
     <img src="photos/footer.png" width="1475" height="700">
-</body
+    <div id="menu" class="menupopup">
+        <span id="menuCloseBtn" class="menu-close">&times; MENU</span>
+        <div class="menu-content">
+            <div class="menu-left">
+                <div class="menu-section">
+                    <h3>FRAGRANCES</h3>
+                    <div class="fragflex">
+                        <img src="photos/verticalline.png" width="4" height="100">
+                        <div class="menu-section">
+                        <a href="colaroma.html">Colaroma</a>
+                        <a href="soleil.html">Soleil</a>
+                        <a href="venus.html">Venus</a>
+                        </div>
+                    </div>
+                </div>
+                  <div class="menu-section">
+                    <h3>PAGES</h3>
+                    <div class="pageflex">
+                        <img src="photos/verticalline.png" width="4" height="140">
+                        <div class="menu-section">
+                        <a href="index.html">Home</a>
+                        <a href="explore.html">Explore</a>
+                        <a href="profile.html">Profile</a>
+                        <a href="shop.html">Shop</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="menu-right">
+                <div class="collagesect1">
+                    <img src="photos/menucollage1.png" width="470" height="350" id="colacollage" class="imgssect1">
+                    <img src="photos/menucollage2.png" width="470" height="150" class="imgssect1">
+                </div>
+                <div class="collagesect2">
+                    <img src="photos/menucollage3.png" width="415" height="520" class="imgssect2">
+                </div>
+            </div>
+        </div>
+    </div>
+    </body
